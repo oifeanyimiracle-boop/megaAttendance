@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 100vw;
     background-color: #ffffff;
     border-radius: 0.75rem;
 
@@ -55,20 +55,6 @@ body {
 .table-controls {
     display: flex;
     justify-content: flex-end;
-  
-}
-
-.filter-select {
- 
-    border: 0.0625rem solid var(--secondary-color);
-    border-radius: 0.375rem;
-    outline: none;
-    font-size: 0.95rem;
-    
-}
-
-.filter-select:hover {
-    border-color: var(--primary-color);
 }
 
 .table-container {
